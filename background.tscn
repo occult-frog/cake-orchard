@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://bijnrhamq8bxu"]
+
+[ext_resource type="Texture2D" uid="uid://dixayrwjod6n1" path="res://background.png" id="1_oabld"]
+[ext_resource type="PackedScene" uid="uid://bcfjiw2tei0tj" path="res://player.tscn" id="2_i7s6n"]
+[ext_resource type="PackedScene" uid="uid://b4ar8e6ypqbtg" path="res://farmland.tscn" id="3_xehqc"]
+
+[node name="Node2D" type="Node2D" unique_id=1351206177]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1141353090]
+position = Vector2(947, 623)
+scale = Vector2(2.5822918, 2.8430557)
+texture = ExtResource("1_oabld")
+
+[node name="Player" parent="." unique_id=846510411 instance=ExtResource("2_i7s6n")]
+position = Vector2(573, 339)
+
+[node name="Farmland" parent="." unique_id=690183917 instance=ExtResource("3_xehqc")]
+position = Vector2(218, 186)
+
+[node name="Farmland2" parent="." unique_id=1679578903 instance=ExtResource("3_xehqc")]
+position = Vector2(387, 186)
+
+[node name="Farmland3" parent="." unique_id=1662429244 instance=ExtResource("3_xehqc")]
+position = Vector2(556, 186)
