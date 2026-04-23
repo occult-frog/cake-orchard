@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://bpis1yjhgjw35"]
+
+[ext_resource type="Texture2D" uid="uid://cw63u4ir4nt3t" path="res://inventory.png" id="1_pohso"]
+[ext_resource type="Script" uid="uid://0o2jbko6x3y3" path="res://inventory.gd" id="2_psafj"]
+
+[node name="Inventory" type="Sprite2D" unique_id=328590319]
+scale = Vector2(0.7222222, 0.7222222)
+texture = ExtResource("1_pohso")
+script = ExtResource("2_psafj")
+
+[node name="WheatSeeds" type="Label" parent="." unique_id=493872980]
+offset_left = -234.0
+offset_top = 12.46154
+offset_right = -178.76926
+offset_bottom = 47.92308
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+
+[node name="Wheat" type="Label" parent="." unique_id=1948287177]
+offset_left = -121.84616
+offset_top = 12.461538
+offset_right = -66.61542
+offset_bottom = 47.92308
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25

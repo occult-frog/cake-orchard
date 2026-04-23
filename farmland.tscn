@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://dk4rth7qh36oa" path="res://farmland.gd" id="1_hjufs"]
 [ext_resource type="Texture2D" uid="uid://wt0468ymsknn" path="res://farmland.png" id="1_kaipa"]
-[ext_resource type="Texture2D" uid="uid://hqeweco6jlj4" path="res://watered_farmland.png" id="3_p3uk7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kaipa"]
 size = Vector2(163, 163)
@@ -20,11 +19,6 @@ texture = ExtResource("1_kaipa")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1393922228]
 position = Vector2(0.5, 1.5)
 shape = SubResource("RectangleShape2D_kaipa")
-
-[node name="WateredFarmland" type="Sprite2D" parent="." unique_id=1476819740]
-position = Vector2(1.0000026, 1.5000063)
-scale = Vector2(5.125, 5.15625)
-texture = ExtResource("3_p3uk7")
 
 [node name="Timer" type="Timer" parent="." unique_id=158725595]
 wait_time = 15.0
