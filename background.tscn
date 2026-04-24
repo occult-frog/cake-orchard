@@ -3,22 +3,48 @@
 [ext_resource type="Texture2D" uid="uid://dixayrwjod6n1" path="res://background.png" id="1_oabld"]
 [ext_resource type="PackedScene" uid="uid://bcfjiw2tei0tj" path="res://player.tscn" id="2_i7s6n"]
 [ext_resource type="PackedScene" uid="uid://b4ar8e6ypqbtg" path="res://farmland.tscn" id="3_xehqc"]
+[ext_resource type="PackedScene" uid="uid://n87mqdi7gbwb" path="res://well_node.tscn" id="4_splo0"]
+[ext_resource type="PackedScene" uid="uid://ci43kcqa2rp4j" path="res://shop_node.tscn" id="5_eq6nc"]
 
 [node name="Node2D" type="Node2D" unique_id=1351206177]
 
 [node name="Background" type="Sprite2D" parent="." unique_id=1141353090]
-position = Vector2(947, 623)
-scale = Vector2(2.5822918, 2.8430557)
+position = Vector2(2091, 1310)
+scale = Vector2(6.560434, 7.2229166)
 texture = ExtResource("1_oabld")
 
 [node name="Player" parent="." unique_id=846510411 instance=ExtResource("2_i7s6n")]
-position = Vector2(573, 339)
+position = Vector2(1000, 605)
 
 [node name="Farmland" parent="." unique_id=690183917 instance=ExtResource("3_xehqc")]
-position = Vector2(218, 186)
+position = Vector2(217, 185)
 
 [node name="Farmland2" parent="." unique_id=1679578903 instance=ExtResource("3_xehqc")]
-position = Vector2(387, 186)
+position = Vector2(383, 185)
 
 [node name="Farmland3" parent="." unique_id=1662429244 instance=ExtResource("3_xehqc")]
-position = Vector2(556, 186)
+position = Vector2(549, 185)
+
+[node name="WellNode" parent="." unique_id=2087398117 instance=ExtResource("4_splo0")]
+position = Vector2(1214, 371)
+
+[node name="Farmland4" parent="." unique_id=1737993667 instance=ExtResource("3_xehqc")]
+position = Vector2(217, 351)
+
+[node name="Farmland5" parent="." unique_id=1001882328 instance=ExtResource("3_xehqc")]
+position = Vector2(383, 351)
+
+[node name="Farmland6" parent="." unique_id=568048320 instance=ExtResource("3_xehqc")]
+position = Vector2(549, 351)
+
+[node name="Farmland7" parent="." unique_id=1058151463 instance=ExtResource("3_xehqc")]
+position = Vector2(217, 517)
+
+[node name="Farmland8" parent="." unique_id=886011747 instance=ExtResource("3_xehqc")]
+position = Vector2(383, 517)
+
+[node name="Farmland9" parent="." unique_id=80505403 instance=ExtResource("3_xehqc")]
+position = Vector2(549, 517)
+
+[node name="ShopNode" parent="." unique_id=1343659626 instance=ExtResource("5_eq6nc")]
+position = Vector2(1769, 159)

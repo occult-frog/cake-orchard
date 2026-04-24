@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://dt58nvkbs04go"]
+
+[ext_resource type="Texture2D" uid="uid://cddkepf31g3m0" path="res://shop_menu.png" id="1_gsqgk"]
+[ext_resource type="Texture2D" uid="uid://vs11rrgp0cwt" path="res://shop_button.png" id="2_8ourk"]
+
+[node name="ShopMenuNode" type="StaticBody2D" unique_id=1292905289]
+
+[node name="ShopMenu" type="Sprite2D" parent="." unique_id=2090769927]
+texture = ExtResource("1_gsqgk")
+
+[node name="WheatSellButton" type="Button" parent="." unique_id=1254428146]
+offset_left = 84.0
+offset_top = -118.0
+offset_right = 225.0
+offset_bottom = -37.0
+theme_override_font_sizes/font_size = 35
+text = "Sell"
+icon = ExtResource("2_8ourk")
+icon_alignment = 1
+
+[node name="WheatBuyButton" type="Button" parent="." unique_id=1219646946]
+offset_left = 84.0
+offset_top = -35.0
+offset_right = 225.0
+offset_bottom = 46.0
+theme_override_font_sizes/font_size = 35
+text = "Buy"
+icon = ExtResource("2_8ourk")
+icon_alignment = 1
+
+[node name="WheatBuyButton2" type="Button" parent="." unique_id=1555226]
+offset_left = 84.0
+offset_top = 48.0
+offset_right = 225.0
+offset_bottom = 129.0
+theme_override_font_sizes/font_size = 35
+text = "Buy"
+icon = ExtResource("2_8ourk")
+icon_alignment = 1

@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://n87mqdi7gbwb"]
+
+[ext_resource type="Texture2D" uid="uid://banss35iv7kkw" path="res://well.png" id="1_1kl67"]
+[ext_resource type="Script" uid="uid://c3lo8lh1kxm82" path="res://well_node.gd" id="1_culc1"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1kl67"]
+radius = 65.27634
+
+[node name="WellNode" type="StaticBody2D" unique_id=2087398117]
+script = ExtResource("1_culc1")
+
+[node name="Well" type="Sprite2D" parent="." unique_id=1423729668]
+position = Vector2(3.8146973e-06, -9.536743e-07)
+scale = Vector2(0.18368056, 0.18368056)
+texture = ExtResource("1_1kl67")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=2034314024]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1375489829]
+shape = SubResource("CircleShape2D_1kl67")
+
+[node name="Timer" type="Timer" parent="." unique_id=1957320528]
+wait_time = 0.1
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

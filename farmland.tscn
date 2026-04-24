@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://wt0468ymsknn" path="res://farmland.png" id="1_kaipa"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kaipa"]
-size = Vector2(163, 163)
+size = Vector2(164, 164)
 
 [node name="Farmland" type="StaticBody2D" unique_id=690183917]
 script = ExtResource("1_hjufs")
@@ -17,10 +17,9 @@ texture = ExtResource("1_kaipa")
 [node name="Area2D" type="Area2D" parent="." unique_id=1793400990]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1393922228]
-position = Vector2(0.5, 1.5)
+position = Vector2(0, 1)
 shape = SubResource("RectangleShape2D_kaipa")
 
 [node name="Timer" type="Timer" parent="." unique_id=158725595]
-wait_time = 15.0
 
 [connection signal="timeout" from="Timer" to="." method="_on_plants_grown"]

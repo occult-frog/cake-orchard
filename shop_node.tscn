@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://ci43kcqa2rp4j"]
+
+[ext_resource type="Texture2D" uid="uid://dps7gdxwop3vq" path="res://shop.png" id="1_fmxu2"]
+[ext_resource type="Script" uid="uid://caxr1ghe1l4gg" path="res://shop_node.gd" id="1_najse"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fmxu2"]
+size = Vector2(360, 150)
+
+[node name="ShopNode" type="StaticBody2D" unique_id=1343659626]
+script = ExtResource("1_najse")
+
+[node name="Shop" type="Sprite2D" parent="." unique_id=1038936861]
+texture = ExtResource("1_fmxu2")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1640060254]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2016175398]
+shape = SubResource("RectangleShape2D_fmxu2")

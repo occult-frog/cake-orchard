@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://7oraign4rrff"]
+
+[ext_resource type="Script" uid="uid://btiu7qx2tmxl8" path="res://water_level.gd" id="1_2ru1x"]
+
+[node name="WaterLevel" type="ProgressBar" unique_id=318452517]
+modulate = Color(0.019607844, 0.34117648, 1, 1)
+offset_right = 4.0
+offset_bottom = 27.0
+rotation = 1.5707964
+show_percentage = false
+script = ExtResource("1_2ru1x")
