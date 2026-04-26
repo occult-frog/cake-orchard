@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://caxr1ghe1l4gg" path="res://shop_node.gd" id="1_najse"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fmxu2"]
-size = Vector2(360, 150)
+size = Vector2(360, 149)
 
 [node name="ShopNode" type="StaticBody2D" unique_id=1343659626]
 script = ExtResource("1_najse")
@@ -15,4 +15,5 @@ texture = ExtResource("1_fmxu2")
 [node name="Area2D" type="Area2D" parent="." unique_id=1640060254]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2016175398]
+position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_fmxu2")

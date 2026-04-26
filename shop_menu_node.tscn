@@ -1,9 +1,12 @@
 [gd_scene format=3 uid="uid://dt58nvkbs04go"]
 
+[ext_resource type="Script" uid="uid://cws06aoa62rcs" path="res://shop_menu_node.gd" id="1_8ourk"]
 [ext_resource type="Texture2D" uid="uid://cddkepf31g3m0" path="res://shop_menu.png" id="1_gsqgk"]
 [ext_resource type="Texture2D" uid="uid://vs11rrgp0cwt" path="res://shop_button.png" id="2_8ourk"]
+[ext_resource type="Texture2D" uid="uid://c3qv6c0af2jnl" path="res://close_button.png" id="4_5gcly"]
 
 [node name="ShopMenuNode" type="StaticBody2D" unique_id=1292905289]
+script = ExtResource("1_8ourk")
 
 [node name="ShopMenu" type="Sprite2D" parent="." unique_id=2090769927]
 texture = ExtResource("1_gsqgk")
@@ -28,7 +31,7 @@ text = "Buy"
 icon = ExtResource("2_8ourk")
 icon_alignment = 1
 
-[node name="WheatBuyButton2" type="Button" parent="." unique_id=1555226]
+[node name="EggsBuyButton" type="Button" parent="." unique_id=1555226]
 offset_left = 84.0
 offset_top = 48.0
 offset_right = 225.0
@@ -36,4 +39,15 @@ offset_bottom = 129.0
 theme_override_font_sizes/font_size = 35
 text = "Buy"
 icon = ExtResource("2_8ourk")
+icon_alignment = 1
+
+[node name="CloseButton" type="Button" parent="." unique_id=238044887]
+offset_left = 304.0
+offset_top = -195.0
+offset_right = 343.0
+offset_bottom = -145.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "X"
+icon = ExtResource("4_5gcly")
 icon_alignment = 1

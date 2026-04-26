@@ -25,3 +25,4 @@ func _physics_process(delta):
 	
 	$WheatSeeds.text = str(important_variables.wheat_seeds)
 	$Wheat.text = str(important_variables.wheat)
+	$Eggs.text = str(important_variables.eggs)

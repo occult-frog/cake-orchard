@@ -6,3 +6,5 @@ var wheat = 0
 var wheat_seeds = 3
 var water_level = 100
 var max_water_level = 100
+var eggs = 0
+var shop_open = false

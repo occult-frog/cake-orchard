@@ -23,3 +23,11 @@ offset_right = -66.61542
 offset_bottom = 47.92308
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 25
+
+[node name="Eggs" type="Label" parent="." unique_id=346007292]
+offset_left = -9.6923065
+offset_top = 12.461538
+offset_right = 45.538437
+offset_bottom = 47.92308
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25

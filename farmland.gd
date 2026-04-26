@@ -8,7 +8,7 @@ var grown_farmland
 
 func _ready():
 	normal_farmland = preload("res://farmland.png")
-	watered_farmland = preload("res://watered_farmland.png")
+	watered_farmland = preload("res://farmland_watered.png")
 	planted_farmland = preload("res://farmland_planted.png")
 	grown_farmland = preload("res://farmland_grown.png")
 	$NormalFarmland.texture = normal_farmland
