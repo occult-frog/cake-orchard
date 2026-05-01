@@ -25,7 +25,7 @@ func _physics_process(delta):
 			$Timer.start()
 		elif current_farmland == "grown":
 			current_farmland = "normal"
-			important_variables.wheat += 1
+			important_variables.wheat += randi_range(important_variables.wheat_range[0], important_variables.wheat_range[1])
 			important_variables.wheat_seeds += randi_range(1,3)
 			$NormalFarmland.texture = normal_farmland
 			

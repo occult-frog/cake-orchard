@@ -1,0 +1,85 @@
+[gd_scene format=3 uid="uid://dgfmnnqxoct6f"]
+
+[ext_resource type="Texture2D" uid="uid://3emyel4ry2fp" path="res://workbench_menu.png" id="1_bsoxr"]
+[ext_resource type="Script" uid="uid://cuj570fvbr8g6" path="res://workbench_menu_node.gd" id="1_wfn1s"]
+[ext_resource type="Texture2D" uid="uid://c3qv6c0af2jnl" path="res://close_button.png" id="2_wfn1s"]
+[ext_resource type="Texture2D" uid="uid://vs11rrgp0cwt" path="res://shop_button.png" id="4_hufib"]
+
+[node name="WorkbenchMenuNode" type="StaticBody2D" unique_id=1151128013]
+script = ExtResource("1_wfn1s")
+
+[node name="WorkbenchMenu" type="Sprite2D" parent="." unique_id=2016440991]
+texture = ExtResource("1_bsoxr")
+
+[node name="CloseButton" type="Button" parent="." unique_id=1157353367]
+offset_left = 545.0
+offset_top = -381.0
+offset_right = 584.0
+offset_bottom = -342.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "x"
+icon = ExtResource("2_wfn1s")
+icon_alignment = 1
+
+[node name="WaterLabel" type="Label" parent="." unique_id=863832240]
+offset_left = -516.0
+offset_top = -293.0
+offset_right = -48.0
+offset_bottom = -216.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 36
+text = "Water Capacity Upgrade - 10 coins"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SpeedLabel" type="Label" parent="." unique_id=654914180]
+offset_left = -534.0
+offset_top = -164.0
+offset_right = -66.0
+offset_bottom = -87.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 36
+text = "Speed Upgrade- 10 coins"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="WheatLabel" type="Label" parent="." unique_id=420178648]
+offset_left = -525.0
+offset_top = -30.0
+offset_right = -57.0
+offset_bottom = 47.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 36
+text = "Wheat Upgrade- 10 coins"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="WaterButton" type="Button" parent="." unique_id=1779752868]
+offset_left = 151.0
+offset_top = -296.0
+offset_right = 292.0
+offset_bottom = -215.0
+theme_override_font_sizes/font_size = 29
+text = "Buy"
+icon = ExtResource("4_hufib")
+icon_alignment = 1
+
+[node name="SpeedButton" type="Button" parent="." unique_id=1311671099]
+offset_left = 151.0
+offset_top = -164.0
+offset_right = 292.0
+offset_bottom = -83.0
+theme_override_font_sizes/font_size = 29
+text = "Buy"
+icon = ExtResource("4_hufib")
+icon_alignment = 1
+
+[node name="WheatButton" type="Button" parent="." unique_id=1984140908]
+offset_left = 151.0
+offset_top = -34.0
+offset_right = 292.0
+offset_bottom = 47.0
+theme_override_font_sizes/font_size = 29
+text = "Buy"
+icon = ExtResource("4_hufib")
+icon_alignment = 1

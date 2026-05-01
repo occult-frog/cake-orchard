@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bw5cvy2cvu272"]
+
+[ext_resource type="Texture2D" uid="uid://o00s0yct5adx" path="res://workbench.png" id="1_dig1h"]
+[ext_resource type="Script" uid="uid://bfho5m2l6u4tn" path="res://workbench.gd" id="1_tkrq4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tkrq4"]
+size = Vector2(400, 200)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ihq6j"]
+size = Vector2(447, 245)
+
+[node name="WorkbenchNode" type="StaticBody2D" unique_id=177253619]
+script = ExtResource("1_tkrq4")
+
+[node name="Workbench" type="Sprite2D" parent="." unique_id=386336196]
+texture = ExtResource("1_dig1h")
+
+[node name="hitbox" type="CollisionShape2D" parent="." unique_id=306494151]
+shape = SubResource("RectangleShape2D_tkrq4")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=2067103928]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=315834572]
+position = Vector2(-0.5, -0.5)
+shape = SubResource("RectangleShape2D_ihq6j")

@@ -1,17 +1,16 @@
 [gd_scene format=3 uid="uid://b4ar8e6ypqbtg"]
 
 [ext_resource type="Script" uid="uid://dk4rth7qh36oa" path="res://farmland.gd" id="1_hjufs"]
-[ext_resource type="Texture2D" uid="uid://wt0468ymsknn" path="res://farmland.png" id="1_kaipa"]
+[ext_resource type="Texture2D" uid="uid://wt0468ymsknn" path="res://farmland.png" id="2_r62q1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kaipa"]
-size = Vector2(163.5, 163.5)
+size = Vector2(160, 160)
 
 [node name="Farmland" type="StaticBody2D" unique_id=690183917]
 script = ExtResource("1_hjufs")
 
 [node name="NormalFarmland" type="Sprite2D" parent="." unique_id=1489355787]
-scale = Vector2(2.04375, 2.04375)
-texture = ExtResource("1_kaipa")
+texture = ExtResource("2_r62q1")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1793400990]
 
