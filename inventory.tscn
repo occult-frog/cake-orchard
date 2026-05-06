@@ -4,30 +4,78 @@
 [ext_resource type="Script" uid="uid://0o2jbko6x3y3" path="res://inventory.gd" id="2_psafj"]
 
 [node name="Inventory" type="Sprite2D" unique_id=328590319]
-scale = Vector2(0.7222222, 0.7222222)
+scale = Vector2(1.2868056, 1.2868056)
 texture = ExtResource("1_pohso")
 script = ExtResource("2_psafj")
 
 [node name="WheatSeeds" type="Label" parent="." unique_id=493872980]
-offset_left = -234.0
-offset_top = 12.46154
-offset_right = -178.76926
-offset_bottom = 47.92308
+offset_left = -330.2752
+offset_top = -3.1084723
+offset_right = -275.04446
+offset_bottom = 32.35307
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 25
 
 [node name="Wheat" type="Label" parent="." unique_id=1948287177]
-offset_left = -121.84616
-offset_top = 12.461538
-offset_right = -66.61542
-offset_bottom = 47.92308
+offset_left = -254.11763
+offset_top = -3.1084723
+offset_right = -198.88689
+offset_bottom = 32.35307
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 25
 
 [node name="Eggs" type="Label" parent="." unique_id=346007292]
-offset_left = -9.6923065
-offset_top = 12.461538
-offset_right = 45.538437
-offset_bottom = 47.92308
+offset_left = -177.18294
+offset_top = -3.1084726
+offset_right = -121.952194
+offset_bottom = 32.35307
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+
+[node name="Vanilla" type="Label" parent="." unique_id=823392847]
+offset_left = -100.24825
+offset_top = -3.1084723
+offset_right = -45.01751
+offset_bottom = 32.35307
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+
+[node name="Stalks" type="Label" parent="." unique_id=1553564791]
+offset_left = -22.536427
+offset_top = -3.1084723
+offset_right = 32.69431
+offset_bottom = 32.35307
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+
+[node name="Sugarcane" type="Label" parent="." unique_id=1598219002]
+offset_left = 54.39827
+offset_top = -3.1084726
+offset_right = 109.62901
+offset_bottom = 32.35307
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+
+[node name="Sugar" type="Label" parent="." unique_id=878543170]
+offset_left = 131.33296
+offset_top = -3.1084726
+offset_right = 186.5637
+offset_bottom = 32.35307
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+
+[node name="Salt" type="Label" parent="." unique_id=1156734119]
+offset_left = 208.26767
+offset_top = -3.1084726
+offset_right = 263.4984
+offset_bottom = 32.35307
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+
+[node name="Flour" type="Label" parent="." unique_id=1194424637]
+offset_left = 285.20236
+offset_top = -3.1084726
+offset_right = 340.4331
+offset_bottom = 32.35307
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 25

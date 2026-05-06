@@ -22,36 +22,65 @@ icon = ExtResource("2_wfn1s")
 icon_alignment = 1
 
 [node name="WaterLabel" type="Label" parent="." unique_id=863832240]
-offset_left = -516.0
+offset_left = -519.0
 offset_top = -293.0
-offset_right = -48.0
+offset_right = 74.0
 offset_bottom = -216.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 36
 text = "Water Capacity Upgrade - 10 coins"
-horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="SpeedLabel" type="Label" parent="." unique_id=654914180]
-offset_left = -534.0
-offset_top = -164.0
-offset_right = -66.0
-offset_bottom = -87.0
+offset_left = -523.0
+offset_top = -205.0
+offset_right = -55.0
+offset_bottom = -128.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 36
-text = "Speed Upgrade- 10 coins"
-horizontal_alignment = 1
+text = "Speed Upgrade - 10 coins"
 vertical_alignment = 1
 
 [node name="WheatLabel" type="Label" parent="." unique_id=420178648]
 offset_left = -525.0
-offset_top = -30.0
+offset_top = -115.0
 offset_right = -57.0
-offset_bottom = 47.0
+offset_bottom = -38.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 36
-text = "Wheat Upgrade- 10 coins"
-horizontal_alignment = 1
+text = "Wheat Upgrade - 10 coins"
+vertical_alignment = 1
+
+[node name="SugarLabel" type="Label" parent="." unique_id=746924110]
+offset_left = -525.0
+offset_top = -24.0
+offset_right = -57.0
+offset_bottom = 53.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 36
+text = "Sugar - 1 Sugarcane"
+vertical_alignment = 1
+
+[node name="FlourLabel" type="Label" parent="." unique_id=342350833]
+offset_left = -525.0
+offset_top = 65.0
+offset_right = -57.0
+offset_bottom = 142.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 36
+text = "Flour - 3 Wheat"
+vertical_alignment = 1
+
+[node name="CakeLabel" type="Label" parent="." unique_id=303438752]
+offset_left = -525.0
+offset_top = 168.0
+offset_right = -27.0
+offset_bottom = 271.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 36
+text = "Cake - 10 flour, 15 sugar, 
+3 eggs, 2 vanilla, salt, 
+stand mixer"
 vertical_alignment = 1
 
 [node name="WaterButton" type="Button" parent="." unique_id=1779752868]
@@ -66,9 +95,9 @@ icon_alignment = 1
 
 [node name="SpeedButton" type="Button" parent="." unique_id=1311671099]
 offset_left = 151.0
-offset_top = -164.0
+offset_top = -207.0
 offset_right = 292.0
-offset_bottom = -83.0
+offset_bottom = -126.0
 theme_override_font_sizes/font_size = 29
 text = "Buy"
 icon = ExtResource("4_hufib")
@@ -76,10 +105,40 @@ icon_alignment = 1
 
 [node name="WheatButton" type="Button" parent="." unique_id=1984140908]
 offset_left = 151.0
-offset_top = -34.0
+offset_top = -117.0
 offset_right = 292.0
-offset_bottom = 47.0
+offset_bottom = -36.0
 theme_override_font_sizes/font_size = 29
 text = "Buy"
+icon = ExtResource("4_hufib")
+icon_alignment = 1
+
+[node name="SugarButton" type="Button" parent="." unique_id=1090874676]
+offset_left = 151.0
+offset_top = -27.0
+offset_right = 292.0
+offset_bottom = 54.0
+theme_override_font_sizes/font_size = 29
+text = "Craft"
+icon = ExtResource("4_hufib")
+icon_alignment = 1
+
+[node name="FlourButton" type="Button" parent="." unique_id=1834158131]
+offset_left = 151.0
+offset_top = 64.0
+offset_right = 292.0
+offset_bottom = 145.0
+theme_override_font_sizes/font_size = 29
+text = "Craft"
+icon = ExtResource("4_hufib")
+icon_alignment = 1
+
+[node name="CakeButton" type="Button" parent="." unique_id=1386504277]
+offset_left = 150.0
+offset_top = 163.0
+offset_right = 291.0
+offset_bottom = 244.0
+theme_override_font_sizes/font_size = 29
+text = "Bake"
 icon = ExtResource("4_hufib")
 icon_alignment = 1

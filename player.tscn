@@ -25,7 +25,7 @@ texture = ExtResource("1_4flbx")
 shape = SubResource("RectangleShape2D_onrkg")
 
 [node name="Inventory" parent="." unique_id=1924694413 instance=ExtResource("3_i3pqv")]
-position = Vector2(0, 441)
+position = Vector2(0, 442.00003)
 
 [node name="WaterLevel" parent="." unique_id=318452517 instance=ExtResource("4_hqtel")]
 offset_left = 941.0
